@@ -1,5 +1,5 @@
 {
-  "name": "react-library-vite",
+  "name": "my-react-library-vite",
   "version": "0.0.0",
   "description": "A scaffold app for building a React component/library using Vite, ready for publication to npm",
   "author": "Tom Southall",
@@ -8,12 +8,12 @@
     "dist",
     "README.md"
   ],
-  "main": "./dist/react-library-vite.umd.js",
-  "module": "./dist/react-library-vite.es.js",
+  "main": "./dist/my-react-library-vite.umd.js",
+  "module": "./dist/my-react-library-vite.es.js",
   "exports": {
     ".": {
-      "import": "./dist/react-library-vite.es.js",
-      "require": "./dist/react-library-vite.umd.js"
+      "import": "./dist/my-react-library-vite.es.js",
+      "require": "./dist/my-react-library-vite.umd.js"
     }
   },
   "scripts": {
